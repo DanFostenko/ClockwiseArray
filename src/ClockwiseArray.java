@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ClockwiseArray {
 /*
 * Task: "Numbers from 1 to 999 are arranged in a circle (as on the clock face). If you delete each 4th number, which three numbers will remain at the end?"
-* Задача: «Числа от 1 до 999 расположены по кругу (как на циферблате часов). Если вычеркивать каждое 4-е число, какие три числа останутся в конце?»
+* Р—Р°РґР°С‡Р°: В«Р§РёСЃР»Р° РѕС‚ 1 РґРѕ 999 СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РїРѕ РєСЂСѓРіСѓ (РєР°Рє РЅР° С†РёС„РµСЂР±Р»Р°С‚Рµ С‡Р°СЃРѕРІ). Р•СЃР»Рё РІС‹С‡РµСЂРєРёРІР°С‚СЊ РєР°Р¶РґРѕРµ 4-Рµ С‡РёСЃР»Рѕ, РєР°РєРёРµ С‚СЂРё С‡РёСЃР»Р° РѕСЃС‚Р°РЅСѓС‚СЃСЏ РІ РєРѕРЅС†Рµ?В»
 */
 	
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class ClockwiseArray {
 		int i = 0;		//increment
 		int s = 999;		//array size, 999 values
 		int z = 4;		//step
-		int n=3;		//number of iterations
+		int n = 3;		//number of iterations
 		int array[] = new int[s*n];		//initial array with sequence
 		int arraysum[] = new int[s];	//result array
 		int k = 1, l = 1, m = 1;		//the last 3 numbers
